@@ -1,11 +1,13 @@
 package com.projectpharmacy.api.service
 
+import org.springframework.boot.test.context.SpringBootTest
 import spock.lang.Specification
 
 import java.nio.charset.Charset
 import java.nio.charset.StandardCharsets
 
 //Specification 상속해야 한다
+@SpringBootTest //통합 테스트 환경 구성
 class KakaoUriBuilderServiceTest extends Specification {
 
     private KakaoUriBuilderService kakaoUriBuilderService
