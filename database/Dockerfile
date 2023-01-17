@@ -1,3 +1,3 @@
-FROM mariadb:10.11.1-rc
+FROM mariadb:10
 
 ENV TZ=Asia/Seoul
