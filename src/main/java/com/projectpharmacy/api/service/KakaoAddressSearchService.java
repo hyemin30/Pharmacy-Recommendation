@@ -34,7 +34,7 @@ public class KakaoAddressSearchService {
 
         // Authorization 헤더부분에 카카오 restapikey 넣어준다
         HttpHeaders headers = new HttpHeaders();
-        headers.set(HttpHeaders.AUTHORIZATION, "kakaoAK " + kakaoRestApiKey);
+        headers.set(HttpHeaders.AUTHORIZATION, "KakaoAK " + kakaoRestApiKey);
         HttpEntity httpEntity = new HttpEntity<>(headers);
 
         //kakao api 호출
