@@ -64,7 +64,7 @@ class PharmacyRepositoryTest extends AbstractIntegrationContainerBaseTest {
         result.size() == 1
     }
 
-    def "BaseTimteEntity 등록"() {
+    def "BaseTimeEntity 등록"() {
         given:
         LocalDateTime now = LocalDateTime.now()
         String address = "서울 특별시 성북구 종암동"
