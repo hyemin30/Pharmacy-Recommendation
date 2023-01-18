@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @Builder
 @Getter
-@Entity(name = "parmacy")
+@Entity(name = "pharmacy")
 public class Pharmacy extends BaseTimeEntity {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
